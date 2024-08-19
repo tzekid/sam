@@ -1,0 +1,11 @@
+zig-out/
+zig-cache/
+*.core
+.jetzig
+.zig-cache/
+
+/release/
+/debug/
+/build/
+/build-*/
+/docgen_tmp/
