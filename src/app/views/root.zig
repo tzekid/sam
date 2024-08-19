@@ -19,7 +19,7 @@ pub fn index(request: *jetzig.Request, data: *jetzig.Data) !jetzig.View {
     var root = try data.object();
 
     // Add a string to the root object.
-    try root.put("welcome_message", data.string("Welcome to Jetzig!"));
+    try root.put("welcome_message", data.string("Hello, Placeholder!"));
 
     // Request params have the same type as a `data.object()` so they can be inserted them
     // directly into the response data. Fetch `http://localhost:8080/?message=hello` to set the
